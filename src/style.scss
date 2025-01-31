@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@700&display=swap');
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('/path-to-font/Pacifico-Bold.woff2') format('woff2'),
+        url('/path-to-font/Pacifico-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+$primary-font: 'Pacifico', cursive;
+$orange-color: #F0902B;
+html,
+body {
+    font-family: $primary-font;
+    font-weight: 700;
+
+    
+}
+
+h1{
+    color: $orange-color 
+}
